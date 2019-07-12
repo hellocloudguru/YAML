@@ -1,0 +1,36 @@
+YAML is a data serialization language.
+- Natural and Meaningful
+- AKA human readable
+
+# This is a comment 
+
+Default data types:
+seq - Sequence
+map - Map
+str - String
+int - Integer
+float - Floating-point decimal
+null - Null
+binary - Binary code
+omap - Ordered map
+set - Unordered set
+
+How to use data types
+unit: !!str 13
+---------------------
+Sequences are lists
+- item 1
+- item 2
+
+Mappings are key-value pairs
+key1: value1
+key2: value2
+
+Sequence of mappings
+- key1: value1
+  key2: value2
+  
+Mapping of mappings
+overallkey:
+  key1: value1
+  key2: value2
